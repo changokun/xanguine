@@ -1,0 +1,179 @@
+{
+    "meta": {
+        "title": "Xanguine \u2014 Sitios web creados por un equipo peque\u00f1o, directamente",
+        "description": "Xanguine crea sitios web para peque\u00f1as empresas de todo el mundo desde Portugal y est\u00e1 contratando comerciales para hacer crecer el equipo."
+    },
+    "nav": {
+        "whatWeDo": "Qu\u00e9 Hacemos",
+        "contact": "Contacto",
+        "theRole": "El Puesto",
+        "hiring": "Estamos contratando",
+        "viewRole": "Ver el puesto de ventas",
+        "openMenu": "Abrir men\u00fa",
+        "closeMenu": "Cerrar men\u00fa",
+        "primary": "Principal",
+        "mobile": "M\u00f3vil",
+        "footer": "Pie de p\u00e1gina",
+        "homeLabel": "Inicio de Xanguine",
+        "language": "Idioma"
+    },
+    "hero": {
+        "badge": "Sitios web y reservas, desde Portugal",
+        "line1": "Calidad de agencia,",
+        "line2": "sin precios de agencia.",
+        "line3": "Personas reales, siempre.",
+        "intro": "Sin plataformas an\u00f3nimas, sin paneles confusos, sin n\u00fameros de ticket. Xanguine dise\u00f1a y construye sitios web, tiendas online y sistemas de reservas con una persona real al otro lado, desde un estilista en un sal\u00f3n hasta una cadena hotelera que necesita gesti\u00f3n de reservas. Tambi\u00e9n trabajamos con Shopify.",
+        "ctaPrimary": "Cu\u00e9ntanos qu\u00e9 necesitas",
+        "ctaSecondary": "Estamos contratando comerciales",
+        "basedInK": "Con sede en",
+        "basedInV": "Portugal",
+        "servingK": "Atendemos",
+        "servingV": "Clientes en cualquier lugar",
+        "platformsK": "Plataformas",
+        "platformsV": "Desarrollos a medida y Shopify",
+        "carouselLabel": "Fotos de peque\u00f1os empresarios felices",
+        "slides": [
+            "Peque\u00f1os empresarios sonrientes en Portugal: una peluquera en su sal\u00f3n iluminado por el sol, una anfitriona de alojamiento en recepci\u00f3n y una tendera con una tableta",
+            "Tendera sonriente y su colega revisando pedidos juntas en un mostrador",
+            "Peque\u00f1o equipo de colegas riendo juntos alrededor de una mesa en una oficina luminosa",
+            "Socios de negocios d\u00e1ndose la mano y sonriendo tras una reuni\u00f3n exitosa",
+            "Alegre equipo de peque\u00f1os empresarios reunido alrededor de un port\u00e1til",
+            "Empresaria segura y sonriente en un espacio de trabajo con iluminaci\u00f3n c\u00e1lida"
+        ]
+    },
+    "scale": {
+        "eyebrow": "Lo que Xanguine puede hacer",
+        "title": "Una persona o cien locales.",
+        "intro": "Trabajamos a cualquier escala. Tanto si cortas el pelo en una sola silla como si diriges una cadena de hoteles, construimos el sitio web y las herramientas de reservas que se ajustan a tu forma real de trabajar.",
+        "cards": [
+            {
+                "label": "Una persona",
+                "title": "El estilista independiente",
+                "text": "Un sitio web limpio con reservas online, tus servicios y precios, y una galer\u00eda de tu trabajo. En marcha r\u00e1pidamente y f\u00e1cil de editar por ti.",
+                "points": [
+                    "Reserva de citas online",
+                    "P\u00e1ginas r\u00e1pidas, pensadas para m\u00f3vil",
+                    "Ed\u00edtalo t\u00fa mismo"
+                ]
+            },
+            {
+                "label": "Un equipo en crecimiento",
+                "title": "Tiendas, cl\u00ednicas y estudios",
+                "text": "Cat\u00e1logos de productos, flujos de consultas y programaci\u00f3n para negocios con unos pocos empleados y un flujo constante de clientes.",
+                "points": [
+                    "Tienda online con pagos",
+                    "Programaci\u00f3n de personal y servicios",
+                    "Atenci\u00f3n y actualizaciones tras el lanzamiento"
+                ]
+            },
+            {
+                "label": "Muchas ubicaciones",
+                "title": "Hoteles y cadenas",
+                "text": "Gesti\u00f3n de reservas en varias propiedades: disponibilidad, tarifas, reservas y un \u00fanico lugar para gestionarlo todo.",
+                "points": [
+                    "Gesti\u00f3n de reservas multipropiedad",
+                    "Control de tarifas y disponibilidad",
+                    "Preparado para crecer contigo"
+                ]
+            }
+        ],
+        "shopifyTitle": "\u00bfYa usas Shopify? \u00bfO quieres hacerlo?",
+        "shopifyText": "Construimos y personalizamos tiendas en la plataforma Shopify, para que tengas un back end de tienda probado con un front end que refleje tu negocio.",
+        "shopifyCta": "Pregunta por Shopify"
+    },
+    "contact": {
+        "eyebrow": "Contacto",
+        "title": "Cu\u00e9ntanos qu\u00e9 necesitas.",
+        "intro": "Cu\u00e9ntanos sobre tu negocio, grande o peque\u00f1o, y recibir\u00e1s respuesta de una persona real, no de un n\u00famero de ticket.",
+        "location": "Portugal. Clientes en todo el mundo.",
+        "linkedin": "Puesto de ventas en LinkedIn",
+        "clockLabel": "Hora en Portugal",
+        "teamOnline": "Equipo en l\u00ednea",
+        "teamOffline": "Volvemos el pr\u00f3ximo d\u00eda laborable",
+        "form": {
+            "name": "Tu nombre",
+            "namePlaceholder": "Marta Figueiredo",
+            "email": "Correo electr\u00f3nico",
+            "emailPlaceholder": "marta@padariasol.pt",
+            "business": "Nombre del negocio",
+            "optional": "(opcional)",
+            "businessPlaceholder": "Padaria Sol",
+            "message": "\u00bfQu\u00e9 necesitas?",
+            "messagePlaceholder": "Un sitio nuevo para mi panader\u00eda, con pedidos online para reparto local.",
+            "errName": "Por favor, dinos tu nombre",
+            "errEmail": "Introduce una direcci\u00f3n de correo v\u00e1lida",
+            "errMessage": "Con una o dos frases basta",
+            "submit": "Enviar mensaje",
+            "applyNote": "\u00bfQuieres postularte al puesto de ventas? Usa mejor la oferta en LinkedIn.",
+            "sentTitle": "Mensaje recibido.",
+            "sentText": "Uno de nosotros responder\u00e1 personalmente en un d\u00eda laborable.",
+            "sendAnother": "Enviar otro"
+        }
+    },
+    "role": {
+        "eyebrow": "Puesto abierto",
+        "title": "Comercial, sitios web para peque\u00f1as empresas",
+        "intro": "Somos una empresa peque\u00f1a y lo decimos abiertamente. Eso tambi\u00e9n significa que tu trabajo es visible, tu opini\u00f3n da forma a la oferta y los primeros resultados cuentan.",
+        "pitchTitle": "Lo que vender\u00edas",
+        "pitchText": "Sitios web a medida para restaurantes, cl\u00ednicas, aut\u00f3nomos, tiendas locales y consultores: negocios de 1 a 20 personas que necesitan un sitio serio y no quieren el laberinto de una agencia. Vendes una oferta clara: un sitio, construido por las personas que les presentas.",
+        "pitchPoints": [
+            "Presupuestos de proyecto con alcance fijo",
+            "Entregado en semanas, no en trimestres",
+            "Un \u00fanico punto de contacto desde la venta hasta el lanzamiento",
+            "Favorable a recomendaciones: los clientes se quedan con nosotros"
+        ],
+        "photoAlt": "Mujer sonriente disfrutando de una videollamada en su port\u00e1til durante una reuni\u00f3n de equipo remota",
+        "hiringTitle": "C\u00f3mo funciona la contrataci\u00f3n",
+        "steps": [
+            {
+                "t": "Post\u00falate en LinkedIn",
+                "d": "Solicitud breve, sin ensayo de carta de presentaci\u00f3n."
+            },
+            {
+                "t": "Llamada de 30 minutos",
+                "d": "Te contamos el plan, t\u00fa nos cuentas c\u00f3mo vendes."
+            },
+            {
+                "t": "Piloto remunerado",
+                "d": "Trabaja un territorio peque\u00f1o, aprende el producto, mira los n\u00fameros."
+            }
+        ],
+        "ctaTitle": "Post\u00falate en dos minutos",
+        "ctaText": "La descripci\u00f3n completa del puesto y la solicitud est\u00e1n en LinkedIn.",
+        "ctaButton": "Abrir la oferta",
+        "form": {
+            "eyebrow": "Post\u00falate aqu\u00ed",
+            "title": "Env\u00edanos tu solicitud",
+            "intro": "Adjunta tu CV en PDF y cu\u00e9ntanos un poco sobre ti. Tambi\u00e9n puedes postularte a trav\u00e9s de la oferta en LinkedIn.",
+            "name": "Nombre completo",
+            "namePlaceholder": "Joana Ribeiro",
+            "email": "Correo electr\u00f3nico",
+            "emailPlaceholder": "joana@ejemplo.es",
+            "phone": "Tel\u00e9fono",
+            "phonePlaceholder": "+351 912 345 678",
+            "message": "Mensaje",
+            "messagePlaceholder": "Unas l\u00edneas sobre tu experiencia en ventas y por qu\u00e9 te interesa este puesto.",
+            "file": "CV o carta de presentaci\u00f3n (PDF)",
+            "chooseFile": "Elegir PDF",
+            "replaceFile": "Reemplazar PDF",
+            "removeFile": "Quitar archivo",
+            "fileHint": "Solo PDF, hasta 5 MB.",
+            "errName": "Dinos tu nombre",
+            "errEmail": "Introduce un correo electr\u00f3nico v\u00e1lido",
+            "errPhone": "Introduce un n\u00famero de tel\u00e9fono v\u00e1lido",
+            "errMessage": "Con una o dos frases basta",
+            "errFileRequired": "Adjunta un PDF",
+            "errFileType": "Solo se aceptan archivos PDF",
+            "errFileSize": "El archivo supera los 5 MB",
+            "submit": "Enviar solicitud",
+            "sentTitle": "Solicitud recibida.",
+            "sentText": "Gracias. Uno de nosotros te responder\u00e1 personalmente.",
+            "sendAnother": "Enviar otra"
+        }
+    },
+    "footer": {
+        "copyright": "\u00a9 2026 Xanguine, Portugal",
+        "privacy": "Privacidad",
+        "terms": "T\u00e9rminos"
+    }
+}

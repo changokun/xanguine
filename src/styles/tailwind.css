@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #2a1c17;
+  --foreground: #fbf1e4;
+  --primary: #880808;
+  --primary-foreground: #fbf1e4;
+  --secondary: #3a2822;
+  --secondary-foreground: #fbf1e4;
+  --accent: #e8913a;
+  --accent-foreground: #2a1c17;
+  --muted: #45312a;
+  --muted-foreground: #d3bfae;
+  --card: #35241e;
+  --card-foreground: #fbf1e4;
+  --border: #5a4036;
+  --input: #3f2d26;
+  --ring: #e8913a;
+  --radius: 0.75rem;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --success: #5aa77a;
+  --success-foreground: #2a1c17;
+  --warning: #e0a63c;
+  --warning-foreground: #2a1c17;
+  --destructive: #ef6a5a;
+  --destructive-foreground: #2a1c17;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+@layer utilities {
+  .font-sansation {
+    font-family: 'Sansation', sans-serif;
+  }
+  .font-display {
+    font-family: 'Sansation', system-ui, sans-serif;
+  }
+  .text-hero-xl {
+    font-size: clamp(2.75rem, 9.5vw, 8.5rem);
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+  }
+  .text-section-xl {
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .blob-primary {
+    background: radial-gradient(circle at 30% 30%, var(--primary), transparent 65%);
+    filter: blur(60px);
+  }
+  .blob-accent {
+    background: radial-gradient(circle at 60% 60%, var(--accent), transparent 70%);
+    filter: blur(70px);
+  }
+  .mesh-bg {
+    background: linear-gradient(120deg, var(--background), var(--secondary), var(--background), var(--primary), var(--background));
+    background-size: 300% 300%;
+    animation: meshShift 18s ease-in-out infinite;
+  }
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+  }
+  .reveal {
+    opacity: 1;
+    transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-pending {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  .blob-morph {
+    animation: morph 14s ease-in-out infinite;
+  }
+  .float-slow {
+    animation: floatY 9s ease-in-out infinite;
+  }
+  .hairline-red {
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  }
+  .hero-carousel-track {
+    animation: heroSlideLeft 80s linear infinite;
+    will-change: transform;
+  }
+}
+
+@keyframes meshShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes morph {
+  0%, 100% { border-radius: 60% 40% 55% 45% / 50% 60% 40% 50%; transform: translate3d(0, 0, 0) rotate(0deg); }
+  33% { border-radius: 40% 60% 45% 55% / 60% 40% 60% 40%; transform: translate3d(20px, -30px, 0) rotate(8deg); }
+  66% { border-radius: 55% 45% 60% 40% / 40% 55% 45% 60%; transform: translate3d(-25px, 20px, 0) rotate(-6deg); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -14px, 0); }
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.8); opacity: 0.3; }
+}
+
+@keyframes heroSlideLeft {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mesh-bg, .blob-morph, .float-slow, .hero-carousel-track { animation: none; }
+  html { scroll-behavior: auto; }
+  .reveal.is-pending { opacity: 1; transform: none; }
+}

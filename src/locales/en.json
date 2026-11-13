@@ -1,0 +1,179 @@
+{
+    "meta": {
+        "title": "Xanguine \u2014 Websites Built by a Small Team, Directly",
+        "description": "Xanguine builds websites for small businesses worldwide from Portugal, and is hiring salespeople to grow the team."
+    },
+    "nav": {
+        "whatWeDo": "What We Do",
+        "contact": "Contact",
+        "theRole": "The Role",
+        "hiring": "We're hiring",
+        "viewRole": "View the sales role",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "primary": "Primary",
+        "mobile": "Mobile",
+        "footer": "Footer",
+        "homeLabel": "Xanguine home",
+        "language": "Language"
+    },
+    "hero": {
+        "badge": "Websites & booking, from Portugal",
+        "line1": "Agency quality,",
+        "line2": "without the agency price.",
+        "line3": "Real people, every time.",
+        "intro": "No faceless platform, no confusing dashboards, no ticket numbers. Xanguine designs and builds websites, online shops and booking systems with a real person on the other end, from a single stylist in a salon to a hotel chain that needs booking management. We work on Shopify too.",
+        "ctaPrimary": "Tell us what you need",
+        "ctaSecondary": "We're hiring salespeople",
+        "basedInK": "Based in",
+        "basedInV": "Portugal",
+        "servingK": "Serving",
+        "servingV": "Clients anywhere",
+        "platformsK": "Platforms",
+        "platformsV": "Custom builds & Shopify",
+        "carouselLabel": "Photos of happy small business owners",
+        "slides": [
+            "Smiling small business owners in Portugal: a hairstylist in her sunlit salon, a guesthouse host at reception and a shop owner holding a tablet",
+            "Smiling shop owner and colleague reviewing orders together at a counter",
+            "Small team of colleagues laughing together around a table in a bright office",
+            "Business partners shaking hands and smiling after a successful meeting",
+            "Cheerful team of small business owners gathered around a laptop",
+            "Confident smiling businesswoman standing in a warmly lit workspace"
+        ]
+    },
+    "scale": {
+        "eyebrow": "What Xanguine can do",
+        "title": "One person or one hundred locations.",
+        "intro": "We work on any scale. Whether you cut hair in a single chair or run a chain of hotels, we build the website and booking tools that fit how you actually work.",
+        "cards": [
+            {
+                "label": "One person",
+                "title": "The solo stylist",
+                "text": "A clean website with online booking, your services and prices, and a gallery of your work. Up and running quickly, easy for you to edit.",
+                "points": [
+                    "Online appointment booking",
+                    "Mobile-first, fast pages",
+                    "Edit it yourself"
+                ]
+            },
+            {
+                "label": "A growing team",
+                "title": "Shops, clinics and studios",
+                "text": "Product catalogues, enquiry flows and scheduling for businesses with a handful of staff and a steady stream of customers.",
+                "points": [
+                    "Online shop with payments",
+                    "Staff and service scheduling",
+                    "Care and updates after launch"
+                ]
+            },
+            {
+                "label": "Many locations",
+                "title": "Hotels and chains",
+                "text": "Booking management across properties: availability, rates, reservations and a single place to run it all.",
+                "points": [
+                    "Multi-property booking management",
+                    "Rates and availability control",
+                    "Built to scale with you"
+                ]
+            }
+        ],
+        "shopifyTitle": "Already on Shopify? Or want to be?",
+        "shopifyText": "We build and customise stores on the Shopify platform, so you get a proven shop back end with a front end that looks like your business.",
+        "shopifyCta": "Ask about Shopify"
+    },
+    "contact": {
+        "eyebrow": "Contact",
+        "title": "Tell us what you need.",
+        "intro": "Tell us about your business, big or small, and you'll get a reply from a real person, not a ticket number.",
+        "location": "Portugal. Clients worldwide.",
+        "linkedin": "Sales role on LinkedIn",
+        "clockLabel": "Time in Portugal",
+        "teamOnline": "Team online",
+        "teamOffline": "Back next working day",
+        "form": {
+            "name": "Your name",
+            "namePlaceholder": "Marta Figueiredo",
+            "email": "Email",
+            "emailPlaceholder": "marta@padariasol.pt",
+            "business": "Business name",
+            "optional": "(optional)",
+            "businessPlaceholder": "Padaria Sol",
+            "message": "What do you need?",
+            "messagePlaceholder": "A new site for my bakery, with online orders for local delivery.",
+            "errName": "Please tell us your name",
+            "errEmail": "Enter a valid email address",
+            "errMessage": "A sentence or two is enough",
+            "submit": "Send message",
+            "applyNote": "Looking to apply for the sales role? Use the LinkedIn posting instead.",
+            "sentTitle": "Message received.",
+            "sentText": "One of us will reply personally within one working day.",
+            "sendAnother": "Send another"
+        }
+    },
+    "role": {
+        "eyebrow": "Open role",
+        "title": "Salesperson, small-business websites",
+        "intro": "We're a small company and we say so. That also means your work is visible, your input shapes the offer, and early results count.",
+        "pitchTitle": "What you'd be selling",
+        "pitchText": "Custom websites for restaurants, clinics, tradespeople, local shops and consultants: businesses with 1 to 20 people that need a serious site and do not want an agency maze. You sell a clear offer: a site, built by the people you introduce them to.",
+        "pitchPoints": [
+            "Fixed-scope project quotes",
+            "Delivered in weeks, not quarters",
+            "One point of contact from sale to launch",
+            "Referral-friendly: clients stay with us"
+        ],
+        "photoAlt": "Smiling woman enjoying a video call on her laptop during a remote team meeting",
+        "hiringTitle": "How hiring works",
+        "steps": [
+            {
+                "t": "Apply on LinkedIn",
+                "d": "Short application, no cover-letter essay."
+            },
+            {
+                "t": "30-minute call",
+                "d": "We tell you the plan, you tell us how you sell."
+            },
+            {
+                "t": "Paid pilot",
+                "d": "Work a small territory, learn the product, see the numbers."
+            }
+        ],
+        "ctaTitle": "Apply in two minutes",
+        "ctaText": "The full job description and application live on LinkedIn.",
+        "ctaButton": "Open the posting",
+        "form": {
+            "eyebrow": "Apply here",
+            "title": "Send us your application",
+            "intro": "Attach your CV as a PDF and tell us a little about yourself. You can also apply through the LinkedIn posting.",
+            "name": "Full name",
+            "namePlaceholder": "Joana Ribeiro",
+            "email": "Email",
+            "emailPlaceholder": "joana@example.com",
+            "phone": "Phone",
+            "phonePlaceholder": "+351 912 345 678",
+            "message": "Message",
+            "messagePlaceholder": "A few lines on your sales experience and why this role interests you.",
+            "file": "CV or cover letter (PDF)",
+            "chooseFile": "Choose PDF",
+            "replaceFile": "Replace PDF",
+            "removeFile": "Remove file",
+            "fileHint": "PDF only, up to 5 MB.",
+            "errName": "Please tell us your name",
+            "errEmail": "Enter a valid email address",
+            "errPhone": "Enter a valid phone number",
+            "errMessage": "A sentence or two is enough",
+            "errFileRequired": "Please attach a PDF",
+            "errFileType": "Only PDF files are accepted",
+            "errFileSize": "The file is larger than 5 MB",
+            "submit": "Send application",
+            "sentTitle": "Application received.",
+            "sentText": "Thank you. One of us will get back to you personally.",
+            "sendAnother": "Send another"
+        }
+    },
+    "footer": {
+        "copyright": "\u00a9 2026 Xanguine, Portugal",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    }
+}
