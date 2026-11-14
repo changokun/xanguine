@@ -31,16 +31,8 @@
         "servingV": "Clients anywhere",
         "platformsK": "Platforms",
         "platformsV": "Custom builds & Shopify",
-        "carouselLabel": "Photos of happy small business owners",
-        "slides": [
-            "Smiling small business owners in Portugal: a hairstylist in her sunlit salon, a guesthouse host at reception and a shop owner holding a tablet",
-            "Smiling shop owner and colleague reviewing orders together at a counter",
-            "Small team of colleagues laughing together around a table in a bright office",
-            "Business partners shaking hands and smiling after a successful meeting",
-            "Cheerful team of small business owners gathered around a laptop",
-            "Confident smiling businesswoman standing in a warmly lit workspace"
-        ]
-    },
+        "carouselLabel": "Photos of happy small business owners"
+			},
     "scale": {
         "eyebrow": "What Xanguine can do",
         "title": "One person or one hundred locations.",
