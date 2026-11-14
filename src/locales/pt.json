@@ -1,7 +1,7 @@
 {
     "meta": {
-        "title": "Xanguine \u2014 Websites criados por uma equipa pequena, diretamente",
-        "description": "A Xanguine cria websites para pequenas empresas de todo o mundo a partir de Portugal e est\u00e1 a contratar comerciais para fazer crescer a equipa."
+        "title": "Xanguine — Websites criados por uma equipa pequena, diretamente",
+        "description": "A Xanguine cria websites para pequenas empresas de todo o mundo a partir de Portugal e está a contratar comerciais para fazer crescer a equipa."
     },
     "nav": {
         "whatWeDo": "O Que Fazemos",
@@ -12,17 +12,17 @@
         "openMenu": "Abrir menu",
         "closeMenu": "Fechar menu",
         "primary": "Principal",
-        "mobile": "M\u00f3vel",
-        "footer": "Rodap\u00e9",
-        "homeLabel": "P\u00e1gina inicial da Xanguine",
+        "mobile": "Móvel",
+        "footer": "Rodapé",
+        "homeLabel": "Página inicial da Xanguine",
         "language": "Idioma"
     },
     "hero": {
-        "badge": "Websites e reservas, a partir de Portugal",
-        "line1": "Qualidade de ag\u00eancia,",
-        "line2": "sem pre\u00e7os de ag\u00eancia.",
-        "line3": "Pessoas reais, sempre.",
-        "intro": "Sem plataformas an\u00f3nimas, sem pain\u00e9is confusos, sem n\u00fameros de ticket. A Xanguine desenha e cria websites, lojas online e sistemas de reservas com uma pessoa real do outro lado, desde um cabeleireiro num sal\u00e3o at\u00e9 uma cadeia de hot\u00e9is que precisa de gest\u00e3o de reservas. Trabalhamos tamb\u00e9m com Shopify.",
+        "badgeXXX": "Websites e reservas, a partir de Portugal",
+        "line1": "Qualidade de agência,",
+        "line2": "sem preços de agência.",
+        "line3XXX": "Pessoas reais, sempre.",
+        "intro": "Sem plataformas anónimas, sem painéis confusos, sem números de ticket. A Xanguine desenha e cria websites, lojas online e sistemas de reservas com uma pessoa real do outro lado, desde um cabeleireiro num salão até uma cadeia de hotéis que precisa de gestão de reservas. Trabalhamos também com Shopify.",
         "ctaPrimary": "Diga-nos o que precisa",
         "ctaSecondary": "Estamos a contratar comerciais",
         "basedInK": "Sediados em",
@@ -30,113 +30,113 @@
         "servingK": "Servimos",
         "servingV": "Clientes em qualquer lugar",
         "platformsK": "Plataformas",
-        "platformsV": "Solu\u00e7\u00f5es \u00e0 medida e Shopify",
-        "carouselLabel": "Fotografias de pequenos empres\u00e1rios felizes"
+        "platformsV": "Soluções à medida e Shopify",
+        "carouselLabel": "Fotografias de pequenos empresários felizes"
     },
     "scale": {
         "eyebrow": "O que a Xanguine faz",
         "title": "Uma pessoa ou cem locais.",
-        "intro": "Trabalhamos a qualquer escala. Quer corte cabelo numa \u00fanica cadeira ou gira uma cadeia de hot\u00e9is, criamos o website e as ferramentas de reservas que se adaptam \u00e0 forma como realmente trabalha.",
+        "intro": "Trabalhamos a qualquer escala. Quer corte cabelo numa única cadeira ou gira uma cadeia de hotéis, criamos o website e as ferramentas de reservas que se adaptam à forma como realmente trabalha.",
         "cards": [
             {
                 "label": "Uma pessoa",
                 "title": "O cabeleireiro independente",
-                "text": "Um website limpo com reservas online, os seus servi\u00e7os e pre\u00e7os, e uma galeria do seu trabalho. Pronto rapidamente e f\u00e1cil de editar por si.",
+                "text": "Um website limpo com reservas online, os seus serviços e preços, e uma galeria do seu trabalho. Pronto rapidamente e fácil de editar por si.",
                 "points": [
-                    "Marca\u00e7\u00e3o de consultas online",
-                    "P\u00e1ginas r\u00e1pidas, pensadas para telem\u00f3vel",
-                    "Edite voc\u00ea mesmo"
+                    "Marcação de consultas online",
+                    "Páginas rápidas, pensadas para telemóvel",
+                    "Edite você mesmo"
                 ]
             },
             {
                 "label": "Uma equipa em crescimento",
-                "title": "Lojas, cl\u00ednicas e est\u00fadios",
-                "text": "Cat\u00e1logos de produtos, formul\u00e1rios de pedidos e agendamento para neg\u00f3cios com poucos colaboradores e um fluxo constante de clientes.",
+                "title": "Lojas, clínicas e estúdios",
+                "text": "Catálogos de produtos, formulários de pedidos e agendamento para negócios com poucos colaboradores e um fluxo constante de clientes.",
                 "points": [
                     "Loja online com pagamentos",
-                    "Agendamento de equipa e servi\u00e7os",
-                    "Acompanhamento e atualiza\u00e7\u00f5es ap\u00f3s o lan\u00e7amento"
+                    "Agendamento de equipa e serviços",
+                    "Acompanhamento e atualizações após o lançamento"
                 ]
             },
             {
-                "label": "V\u00e1rios locais",
-                "title": "Hot\u00e9is e cadeias",
-                "text": "Gest\u00e3o de reservas em v\u00e1rias propriedades: disponibilidade, tarifas, reservas e um \u00fanico local para gerir tudo.",
+                "label": "Vários locais",
+                "title": "Hotéis e cadeias",
+                "text": "Gestão de reservas em várias propriedades: disponibilidade, tarifas, reservas e um único local para gerir tudo.",
                 "points": [
-                    "Gest\u00e3o de reservas multipropriedade",
+                    "Gestão de reservas multipropriedade",
                     "Controlo de tarifas e disponibilidade",
                     "Preparado para crescer consigo"
                 ]
             }
         ],
-        "shopifyTitle": "J\u00e1 usa Shopify? Ou quer usar?",
-        "shopifyText": "Criamos e personalizamos lojas na plataforma Shopify, para que tenha um back end de loja comprovado com um front end que reflete o seu neg\u00f3cio.",
+        "shopifyTitle": "Já usa Shopify? Ou quer usar?",
+        "shopifyText": "Criamos e personalizamos lojas na plataforma Shopify, para que tenha um back end de loja comprovado com um front end que reflete o seu negócio.",
         "shopifyCta": "Pergunte sobre Shopify"
     },
     "contact": {
         "eyebrow": "Contacto",
         "title": "Diga-nos o que precisa.",
-        "intro": "Fale-nos do seu neg\u00f3cio, grande ou pequeno, e receber\u00e1 resposta de uma pessoa real, n\u00e3o de um n\u00famero de ticket.",
+        "intro": "Fale-nos do seu negócio, grande ou pequeno, e receberá resposta de uma pessoa real, não de um número de ticket.",
         "location": "Portugal. Clientes em todo o mundo.",
         "linkedin": "Vaga de vendas no LinkedIn",
         "clockLabel": "Hora em Portugal",
         "teamOnline": "Equipa online",
-        "teamOffline": "Voltamos no pr\u00f3ximo dia \u00fatil",
+        "teamOffline": "Voltamos no próximo dia útil",
         "form": {
             "name": "O seu nome",
             "namePlaceholder": "Marta Figueiredo",
             "email": "Email",
             "emailPlaceholder": "marta@padariasol.pt",
-            "business": "Nome do neg\u00f3cio",
+            "business": "Nome do negócio",
             "optional": "(opcional)",
             "businessPlaceholder": "Padaria Sol",
             "message": "De que precisa?",
             "messagePlaceholder": "Um novo site para a minha padaria, com encomendas online para entrega local.",
             "errName": "Por favor, diga-nos o seu nome",
-            "errEmail": "Introduza um endere\u00e7o de email v\u00e1lido",
+            "errEmail": "Introduza um endereço de email válido",
             "errMessage": "Uma ou duas frases chegam",
             "submit": "Enviar mensagem",
-            "applyNote": "Quer candidatar-se \u00e0 vaga de vendas? Use antes o an\u00fancio no LinkedIn.",
+            "applyNote": "Quer candidatar-se à vaga de vendas? Use antes o anúncio no LinkedIn.",
             "sentTitle": "Mensagem recebida.",
-            "sentText": "Um de n\u00f3s responder\u00e1 pessoalmente num dia \u00fatil.",
+            "sentText": "Um de nós responderá pessoalmente num dia útil.",
             "sendAnother": "Enviar outra"
         }
     },
     "role": {
         "eyebrow": "Vaga aberta",
         "title": "Comercial, websites para pequenas empresas",
-        "intro": "Somos uma empresa pequena e dizemo-lo abertamente. Isso significa tamb\u00e9m que o seu trabalho \u00e9 vis\u00edvel, a sua opini\u00e3o molda a oferta e os primeiros resultados contam.",
+        "intro": "Somos uma empresa pequena e dizemo-lo abertamente. Isso significa também que o seu trabalho é visível, a sua opinião molda a oferta e os primeiros resultados contam.",
         "pitchTitle": "O que iria vender",
-        "pitchText": "Websites \u00e0 medida para restaurantes, cl\u00ednicas, profissionais por conta pr\u00f3pria, lojas locais e consultores: neg\u00f3cios com 1 a 20 pessoas que precisam de um site s\u00e9rio e n\u00e3o querem o labirinto de uma ag\u00eancia. Vende uma oferta clara: um site, criado pelas pessoas que apresenta aos clientes.",
+        "pitchText": "Websites à medida para restaurantes, clínicas, profissionais por conta própria, lojas locais e consultores: negócios com 1 a 20 pessoas que precisam de um site sério e não querem o labirinto de uma agência. Vende uma oferta clara: um site, criado pelas pessoas que apresentam aos clientes.",
         "pitchPoints": [
-            "Or\u00e7amentos de projeto com \u00e2mbito fixo",
-            "Entregue em semanas, n\u00e3o em trimestres",
-            "Um \u00fanico ponto de contacto da venda ao lan\u00e7amento",
-            "Favor\u00e1vel a recomenda\u00e7\u00f5es: os clientes ficam connosco"
+            "Orçamentos de projeto com âmbito fixo",
+            "Entregue em semanas, não em trimestres",
+            "Um único ponto de contacto da venda ao lançamento",
+            "Favorável a recomendações: os clientes ficam connosco"
         ],
-        "photoAlt": "Mulher sorridente a desfrutar de uma videochamada no port\u00e1til durante uma reuni\u00e3o de equipa remota",
-        "hiringTitle": "Como funciona a contrata\u00e7\u00e3o",
+        "photoAlt": "Mulher sorridente a desfrutar de uma videochamada no portátil durante uma reunião de equipa remota",
+        "hiringTitle": "Como funciona a contratação",
         "steps": [
             {
                 "t": "Candidate-se no LinkedIn",
-                "d": "Candidatura curta, sem cartas de apresenta\u00e7\u00e3o longas."
+                "d": "Candidatura curta, sem cartas de apresentação longas."
             },
             {
                 "t": "Chamada de 30 minutos",
-                "d": "N\u00f3s explicamos o plano, voc\u00ea explica como vende."
+                "d": "Nós explicamos o plano, você explica como vende."
             },
             {
                 "t": "Piloto remunerado",
-                "d": "Trabalhe um pequeno territ\u00f3rio, aprenda o produto, veja os n\u00fameros."
+                "d": "Trabalhe um pequeno território, aprenda o produto, veja os números."
             }
         ],
         "ctaTitle": "Candidate-se em dois minutos",
-        "ctaText": "A descri\u00e7\u00e3o completa da vaga e a candidatura est\u00e3o no LinkedIn.",
-        "ctaButton": "Abrir o an\u00fancio",
+        "ctaText": "A descrição completa da vaga e a candidatura estão no LinkedIn.",
+        "ctaButton": "Abrir o anúncio",
         "form": {
             "eyebrow": "Candidate-se aqui",
             "title": "Envie-nos a sua candidatura",
-            "intro": "Anexe o seu CV em PDF e fale-nos um pouco sobre si. Tamb\u00e9m pode candidatar-se atrav\u00e9s do an\u00fancio no LinkedIn.",
+            "intro": "Anexe o seu CV em PDF e fale-nos um pouco sobre si. Também pode candidatar-se através do anúncio no LinkedIn.",
             "name": "Nome completo",
             "namePlaceholder": "Joana Ribeiro",
             "email": "Email",
@@ -144,27 +144,27 @@
             "phone": "Telefone",
             "phonePlaceholder": "+351 912 345 678",
             "message": "Mensagem",
-            "messagePlaceholder": "Algumas linhas sobre a sua experi\u00eancia em vendas e porque lhe interessa esta vaga.",
-            "file": "CV ou carta de apresenta\u00e7\u00e3o (PDF)",
+            "messagePlaceholder": "Algumas linhas sobre a sua experiência em vendas e porque lhe interessa esta vaga.",
+            "file": "CV ou carta de apresentação (PDF)",
             "chooseFile": "Escolher PDF",
             "replaceFile": "Substituir PDF",
             "removeFile": "Remover ficheiro",
-            "fileHint": "Apenas PDF, at\u00e9 5 MB.",
+            "fileHint": "Apenas PDF, até 5 MB.",
             "errName": "Diga-nos o seu nome",
-            "errEmail": "Introduza um endere\u00e7o de email v\u00e1lido",
-            "errPhone": "Introduza um n\u00famero de telefone v\u00e1lido",
+            "errEmail": "Introduza um endereço de email válido",
+            "errPhone": "Introduza um número de telefone válido",
             "errMessage": "Uma ou duas frases chegam",
             "errFileRequired": "Anexe um PDF",
-            "errFileType": "Apenas s\u00e3o aceites ficheiros PDF",
+            "errFileType": "Apenas são aceites ficheiros PDF",
             "errFileSize": "O ficheiro tem mais de 5 MB",
             "submit": "Enviar candidatura",
             "sentTitle": "Candidatura recebida.",
-            "sentText": "Obrigado. Um de n\u00f3s responder\u00e1 pessoalmente.",
+            "sentText": "Obrigado. Um de nós responderá pessoalmente.",
             "sendAnother": "Enviar outra"
         }
     },
     "footer": {
-        "copyright": "\u00a9 2026 Xanguine, Portugal",
+        "copyright": "© 2026 Xanguine, Portugal",
         "privacy": "Privacidade",
         "terms": "Termos"
     }
