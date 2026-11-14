@@ -12,19 +12,19 @@ export default function HeroSection() {
 
       {/* Warm scrims for text contrast */}
       <div
-        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/10"
+        className="pointer-events-none absolute inset-0 h-[67vh] bg-gradient-to-t from-background to-background/80"
         aria-hidden="true"
       />
-      <div
+      {/* <div
         className="pointer-events-none absolute inset-0 bg-gradient-to-r from-background/80 via-background/30 to-transparent"
         aria-hidden="true"
-      />
+      /> */}
       <div
         className="pointer-events-none absolute -left-24 bottom-0 h-[28rem] w-[28rem] blob-primary opacity-40"
         aria-hidden="true"
       />
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-16 pt-36 md:px-8 md:pb-24">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-16 pt-96 md:px-8 md:pb-24">
         <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-border bg-card/70 px-4 py-2 backdrop-blur-md">
           <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
           <span className="font-sansation text-xs font-bold uppercase tracking-[0.2em] text-foreground">
