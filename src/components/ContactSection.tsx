@@ -30,7 +30,7 @@ export default function ContactSection() {
                 </p>
               </div>
 
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <a
                   href="mailto:hello@xanguine.com"
                   className="flex min-h-[48px] items-center gap-4 text-foreground transition-colors hover:text-accent"
@@ -52,7 +52,7 @@ export default function ContactSection() {
                   <span className="text-base font-medium">{t?.contact?.linkedin}</span>
                   <Icon name="ArrowUpRightIcon" size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </Reveal>
 

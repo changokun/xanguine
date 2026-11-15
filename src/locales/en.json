@@ -7,7 +7,7 @@
         "whatWeDo": "What We Do",
         "contact": "Contact",
         "theRole": "The Role",
-        "hiring": "We're hiring",
+        "hiring": "We’re hiring",
         "viewRole": "View the sales role",
         "openMenu": "Open menu",
         "closeMenu": "Close menu",
@@ -24,7 +24,7 @@
         "line3": "",
         "intro": "No faceless platform, no confusing dashboards, no ticket numbers. Xanguine designs and builds websites, online shops and booking systems with a real person on the other end, from a single stylist in a salon to a hotel chain that needs booking management. We work on Shopify too.",
         "ctaPrimary": "Tell us what you need",
-        "ctaSecondary": "We're hiring salespeople",
+        "ctaSecondary": "We’re hiring salespeople",
         "basedInK": "Based in",
         "basedInV": "Portugal",
         "servingK": "Serving",
@@ -76,7 +76,7 @@
     "contact": {
         "eyebrow": "Contact",
         "title": "Tell us what you need.",
-        "intro": "Tell us about your business, big or small, and you'll get a reply from a real person, not a ticket number.",
+        "intro": "We’re a small business, too. You want something more than making the site yourself on Wix or WordPress, but you don’t want boutique agency overkill. Start a conversation! You won’t be disappointed.",
         "location": "Portugal. Clients worldwide.",
         "linkedin": "Sales role on LinkedIn",
         "form": {
@@ -102,7 +102,7 @@
     "role": {
         "eyebrow": "Open role",
         "title": "Salesperson, small-business websites",
-        "intro": "We're a small company and we say so. That also means your work is visible, your input shapes the offer, and early results count.",
+        "intro": "We’re a small company and we say so. That also means your work is visible, your input shapes the offer, and early results count.",
         "pitchTitle": "What you'd be selling",
         "pitchText": "Custom websites for restaurants, clinics, tradespeople, local shops and consultants: businesses with 1 to 20 people that need a serious site and do not want an agency maze. You sell a clear offer: a site, built by the people you introduce them to.",
         "pitchPoints": [

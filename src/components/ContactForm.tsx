@@ -103,7 +103,7 @@ export default function ContactForm() {
         {f.submit}
         <Icon name="ArrowRightIcon" size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
       </button>
-      <p className="mt-3 text-center text-sm text-muted-foreground">{f.applyNote}</p>
+      {/* <p className="mt-3 text-center text-sm text-muted-foreground">{f.applyNote}</p> */}
     </form>
   );
 }
