@@ -3,7 +3,6 @@ import Icon from './ui/AppIcon';
 import { useLanguage } from './LanguageProvider';
 import Reveal from './Reveal';
 import ContactForm from './ContactForm';
-import LisbonClock from './LisbonClock';
 
 const LINKEDIN_URL = 'https://www.linkedin.com/jobs/';
 
@@ -30,8 +29,6 @@ export default function ContactSection() {
                   {t?.contact?.intro}
                 </p>
               </div>
-
-              <LisbonClock />
 
               <div className="space-y-4">
                 <a

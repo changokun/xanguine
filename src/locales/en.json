@@ -79,9 +79,6 @@
         "intro": "Tell us about your business, big or small, and you'll get a reply from a real person, not a ticket number.",
         "location": "Portugal. Clients worldwide.",
         "linkedin": "Sales role on LinkedIn",
-        "clockLabel": "Time in Portugal",
-        "teamOnline": "Team online",
-        "teamOffline": "Back next working day",
         "form": {
             "name": "Your name",
             "namePlaceholder": "Marta Figueiredo",
