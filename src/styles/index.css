@@ -1,1 +1,11 @@
 @import './tailwind.css';
+
+header svg,
+footer svg {
+	width: auto;
+	height: 36px;
+}
+header svg path.word,
+footer svg path.word {
+	fill: currentColor;
+}

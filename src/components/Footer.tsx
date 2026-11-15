@@ -20,9 +20,9 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-16 md:flex-row md:items-center md:justify-between md:px-8">
         <div className="flex items-center gap-2">
           <AppLogo size={36} />
-          <span className="font-sansation text-lg font-bold tracking-wide text-foreground">
+          {/* <span className="font-sansation text-lg font-bold tracking-wide text-foreground">
             Xanguine
-          </span>
+          </span> */}
         </div>
 
         <nav className="flex flex-wrap items-center gap-x-8 gap-y-2" aria-label={t?.nav?.footer}>

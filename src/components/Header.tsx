@@ -28,9 +28,9 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 md:h-20 md:px-8">
         <a href="/" className="flex shrink-0 items-center gap-2" aria-label={t?.nav?.homeLabel}>
           <AppLogo size={36} />
-          <span className="font-sansation text-xl font-bold tracking-wide text-foreground">
+          {/* <span className="font-sansation text-xl font-bold tracking-wide text-foreground">
             Xanguine
-          </span>
+          </span> */}
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label={t?.nav?.primary}>
