@@ -58,11 +58,11 @@ export default function ScaleSection() {
         <Reveal delay={150}>
           <div className="relative mt-5 overflow-hidden rounded-2xl border border-primary bg-secondary p-8 md:p-10">
             <div className="blob-primary absolute -right-16 -top-16 h-64 w-64 opacity-50" aria-hidden="true" />
-            <div className="relative grid gap-6 md:grid-cols-5 md:items-center">
-              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary text-primary-foreground md:col-span-1">
-                <Icon name="ShoppingBagIcon" size={28} />
+            <div className="relative flex flex-wrap lg:flex-nowrap gap-9 justify-start items-center">
+              <div className="flex h-14 w-14 items-center justify-center ">
+                <Icon name="ShopifyBag" size={64} />
               </div>
-              <div className="md:col-span-3">
+              <div className="flex-shrink">
                 <h3 className="font-display text-2xl font-semibold text-foreground">
                   {t.scale.shopifyTitle}
                 </h3>
@@ -70,12 +70,14 @@ export default function ScaleSection() {
                   {t.scale.shopifyText}
                 </p>
               </div>
-              <a
-                href="#contact"
-                className="inline-flex min-h-[52px] items-center justify-center rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-foreground md:col-span-1"
-              >
-                {t.scale.shopifyCta}
-              </a>
+              <div className="md:w-full flex-1">
+								<a
+									href="#contact"
+									className="inline-flex min-h-[52px] min-w-[160px] items-center justify-center rounded-full bg-accent px-6 text-sm font-semibold text-accent-foreground transition-colors hover:bg-foreground whitespace-nowrap"
+								>
+									{t.scale.shopifyCta}
+								</a>
+							</div>
             </div>
           </div>
         </Reveal>

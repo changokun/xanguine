@@ -34,24 +34,24 @@
         "carouselLabel": "Photos of happy small business owners"
 			},
     "scale": {
-        "eyebrow": "What Xanguine can do",
-        "title": "One person or one hundred locations.",
-        "intro": "We work on any scale. Whether you cut hair in a single chair or run a chain of hotels, we build the website and booking tools that fit how you actually work.",
+        "eyebrow": "What Xanguine can\u00A0do",
+        "title": "One person or one hundred\u00A0locations.",
+        "intro": "We work on any scale. Whether you simply need people to find your store or you run a chain of hotels, we build the website and tools that fit what you actually\u00A0need.",
         "cards": [
             {
-                "label": "One person",
+                "label": "Just starting",
                 "title": "The solo stylist",
-                "text": "A clean website with online booking, your services and prices, and a gallery of your work. Up and running quickly, easy for you to edit.",
+                "text": "A clean website with online booking, services with prices, and a gallery of your work. Up and running quickly.",
                 "points": [
                     "Online appointment booking",
                     "Mobile-first, fast pages",
-                    "Edit it yourself"
+                    "Update by talking to us, not using a form."
                 ]
             },
             {
-                "label": "A growing team",
-                "title": "Shops, clinics and studios",
-                "text": "Product catalogues, enquiry flows and scheduling for businesses with a handful of staff and a steady stream of customers.",
+                "label": "An established team",
+                "title": "Shops, clinics, studios, etc",
+                "text": "Product catalogues, enquiry flows and delivery logistics.",
                 "points": [
                     "Online shop with payments",
                     "Staff and service scheduling",
@@ -60,8 +60,8 @@
             },
             {
                 "label": "Many locations",
-                "title": "Hotels and chains",
-                "text": "Booking management across properties: availability, rates, reservations and a single place to run it all.",
+                "title": "Hotels, restaurants, etc",
+                "text": "Manage reputation, availability, rates, & reservations from one place.",
                 "points": [
                     "Multi-property booking management",
                     "Rates and availability control",
@@ -69,14 +69,14 @@
                 ]
             }
         ],
-        "shopifyTitle": "Already on Shopify? Or want to be?",
-        "shopifyText": "We build and customise stores on the Shopify platform, so you get a proven shop back end with a front end that looks like your business.",
+        "shopifyTitle": "Already on Shopify? Or\u00A0want\u00A0to\u00A0be?",
+        "shopifyText": "We build and customise stores on the Shopify platform, so you get a proven shop back end with a front end that looks like your\u00A0business.",
         "shopifyCta": "Ask about Shopify"
     },
     "contact": {
         "eyebrow": "Contact",
-        "title": "Tell us what you need.",
-        "intro": "We’re a small business, too. You want something more than making the site yourself on Wix or WordPress, but you don’t want boutique agency overkill. Start a conversation! You won’t be disappointed.",
+        "title": "Tell us what you\u00A0need.",
+        "intro": "Maybe you want something more than making the site yourself on Wix or WordPress, but you don’t want boutique agency overkill. Start a conversation! You won’t be\u00A0disappointed.",
         "location": "Portugal. Clients worldwide.",
         "linkedin": "Sales role on LinkedIn",
         "form": {
