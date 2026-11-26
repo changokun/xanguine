@@ -2,7 +2,28 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useLanguage } from '../components/LanguageProvider';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Sales Representative – Small Business Websites",
+  "description": "<p><strong>Company Description</strong> Xanguine is a small, customer-focused business dedicated to supporting the internet and technology needs of other small businesses.</p><p><strong>Role Description</strong> This is a super flexible remote Salesperson role focused on selling internet and technology services to small business clients. The position needs to define itself. If you have the skills to sell, let's talk and make something work. We'd like to focus on Portugal initially so we are looking for a sales partner with fluent Portuguese as well as decent English.</p><p><strong>Qualifications</strong></p><ul><li>Fluent Portuguese and decent English.</li><li>Organizational skills to manage multiple prospects, prioritize follow-ups, and maintain accurate documentation of sales activities.</li><li>Customer service mindset, with a focus on building long-term relationships and understanding individual client needs.</li><li>Ability to work independently, and stay motivated in a remote, results-driven setting.</li><li>Previous sales experience in technology, internet services, or related fields is preferred but not required.</li></ul></span></div></div>",
+  "datePosted": "2026-11-26",
+  "validThrough": "[2027-12-31T23:59]",
+  "employmentType": "CONTRACTOR",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Xanguine",
+    "sameAs": "https://xanguine.com/",
+    "logo": "https://xanguine.com/assets/images/logo-512.png"
+  },
+  "applicantLocationRequirements": [
+    { "@type": "Country", "name": "Portugal" },
+    { "@type": "Country", "name": "Spain" }
+  ],
+  "jobLocationType": "TELECOMMUTE"
+}
 
 export default function PrivacyPage() {
   const { t } = useLanguage();
@@ -12,6 +33,9 @@ export default function PrivacyPage() {
       <Helmet>
         <title>Privacy Policy — Xanguine</title>
         <meta name="description" content="Xanguine Privacy Policy" />
+				<script type="application/ld+json">
+					{JSON.stringify(schema)}
+				</script>
       </Helmet>
       
       <Header />

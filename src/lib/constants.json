@@ -1,4 +1,43 @@
 {
   "LINKEDIN_URL": "https://www.linkedin.com/company/xanguine/",
-  "LINKEDIN_JOB_POSTING_URL": ""
+  "LINKEDIN_JOB_POSTING_URL": "https://www.linkedin.com/jobs/view/4495256943/",
+	"schemaPrototype": {
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "WebSite",
+				"@id": "https://xanguine.com/#website",
+				"url": "https://xanguine.com/",
+				"name": "Xanguine",
+				"inLanguage": ["en", "pt-PT", "es-ES"],
+				"publisher": { "@id": "https://xanguine.com/#organization" }
+			},
+			{
+				"@type": ["Organization", "ProfessionalService"],
+				"@id": "https://xanguine.com/#organization",
+				"name": "Xanguine",
+				"url": "https://xanguine.com/",
+				"logo": "https://xanguine.com/assets/images/xanguineLogoRedBlackHoriz.png",
+				"image": "https://xanguine.com/assets/images/socialShare.jpg",
+				"description": "Xanguine designs and builds websites, online shops and booking systems for small businesses, from a solo stylist to multi-location hotels and restaurants. Based in Portugal, serving Portugal, Spain and clients worldwide.",
+				"slogan": "Agency quality, without the agency price.",
+				"foundingLocation": { "@type": "Country", "name": "Portugal" },
+				"areaServed": [
+					{ "@type": "Country", "name": "Portugal" },
+					{ "@type": "Country", "name": "Spain" }
+				],
+				"knowsAbout": ["Web design", "Web development", "E-commerce", "Shopify", "Online booking systems"],
+				"hasOfferCatalog": {
+					"@type": "OfferCatalog",
+					"name": "Xanguine services",
+					"itemListElement": [
+						{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Small business websites with online booking" } },
+						{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Online shops and Shopify stores" } },
+						{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Multi-property booking and rate management" } }
+					]
+				},
+				"sameAs": ["https://www.linkedin.com/company/xanguine/"]
+			}
+		]
+	}
 }
