@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import AppLogo from './ui/AppLogo';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useLanguage } from './LanguageProvider';
+import constants from '../lib/constants.json';
 
-const LINKEDIN_URL = 'https://www.linkedin.com/jobs/';
+const { LINKEDIN_URL } = constants;
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -12,7 +13,7 @@ export default function Footer() {
   const links = [
     { label: t?.nav?.whatWeDo, href: '/#what-we-do' },
     { label: t?.nav?.contact, href: '/#contact' },
-    { label: t?.nav?.theRole, href: '/open-role' },
+    { label: t?.nav?.theRole, href: '/careers' },
   ];
 
   return (
@@ -35,14 +36,16 @@ export default function Footer() {
               {l?.label}
             </Link>
           ))}
-          <a
+					{LINKEDIN_URL && (
+						<a
             href={LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex min-h-[44px] items-center text-[15px] font-medium text-muted-foreground transition-colors hover:text-foreground focus-visible:text-foreground"
-          >
-            LinkedIn
-          </a>
+						>
+							LinkedIn
+						</a>
+					)}
         </nav>
 
         <div className="flex flex-col gap-1 text-[15px] text-muted-foreground md:items-end">

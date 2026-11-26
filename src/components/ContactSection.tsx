@@ -4,8 +4,6 @@ import { useLanguage } from './LanguageProvider';
 import Reveal from './Reveal';
 import ContactForm from './ContactForm';
 
-const LINKEDIN_URL = 'https://www.linkedin.com/jobs/';
-
 export default function ContactSection() {
   const { t } = useLanguage();
 
@@ -29,30 +27,6 @@ export default function ContactSection() {
                   {t?.contact?.intro}
                 </p>
               </div>
-
-              {/* <div className="space-y-4">
-                <a
-                  href="mailto:hello@xanguine.com"
-                  className="flex min-h-[48px] items-center gap-4 text-foreground transition-colors hover:text-accent"
-                >
-                  <Icon name="EnvelopeIcon" size={22} className="text-accent" />
-                  <span className="text-base font-medium">hello@xanguine.com</span>
-                </a>
-                <div className="flex min-h-[48px] items-center gap-4 text-foreground">
-                  <Icon name="MapPinIcon" size={22} className="text-accent" />
-                  <span className="text-base font-medium">{t?.contact?.location}</span>
-                </div>
-                <a
-                  href={LINKEDIN_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex min-h-[48px] items-center gap-4 text-foreground transition-colors hover:text-accent"
-                >
-                  <Icon name="BriefcaseIcon" size={22} className="text-accent" />
-                  <span className="text-base font-medium">{t?.contact?.linkedin}</span>
-                  <Icon name="ArrowUpRightIcon" size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
-                </a>
-              </div> */}
             </div>
           </Reveal>
 

@@ -3,8 +3,9 @@ import AppLogo from './ui/AppLogo';
 import Icon from './ui/AppIcon';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useLanguage } from './LanguageProvider';
+import constants from '../lib/constants.json';
 
-const LINKEDIN_URL = 'https://www.linkedin.com/jobs/';
+const { LINKEDIN_URL } = constants;
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Header() {
   const navLinks = [
     { label: t?.nav?.whatWeDo, href: '/#what-we-do' },
     { label: t?.nav?.contact, href: '/#contact' },
-    { label: t?.nav?.theRole, href: '/open-role' },
+    { label: t?.nav?.theRole, href: '/careers' },
   ];
 
   useEffect(() => {
@@ -48,8 +49,7 @@ export default function Header() {
         <div className="flex shrink-0 items-center gap-3 md:gap-5">
           <LanguageSwitcher />
           <a
-            href={LINKEDIN_URL}
-            target="_blank"
+            href="/careers"
             rel="noopener noreferrer"
             className="hidden min-h-[44px] items-center whitespace-nowrap rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground lg:inline-flex"
           >

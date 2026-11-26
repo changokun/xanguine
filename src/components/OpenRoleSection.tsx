@@ -3,8 +3,9 @@ import Icon from './ui/AppIcon';
 import AppImage from './ui/AppImage';
 import { useLanguage } from './LanguageProvider';
 import Reveal from './Reveal';
+import constants from '../lib/constants.json';
 
-const LINKEDIN_URL = 'https://www.linkedin.com/jobs/';
+const { LINKEDIN_URL } = constants;
 
 export default function OpenRoleSection() {
   const { t } = useLanguage();

@@ -58,7 +58,7 @@ export default function HeroSection() {
               />
             </a>
             <a
-              href="/open-role"
+              href="/careers"
               className="inline-flex min-h-[56px] items-center justify-center rounded-full border border-foreground/40 bg-background/30 px-8 text-base font-medium text-foreground backdrop-blur-sm transition-colors hover:border-accent hover:bg-background/60 whitespace-nowrap"
             >
               {t?.hero?.ctaSecondary}
