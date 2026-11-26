@@ -218,20 +218,16 @@
         "hiringTitle": "How hiring works",
         "steps": [
             {
-                "t": "Apply on LinkedIn",
-                "d": "Short application, no cover-letter essay."
+                "t": "Apply Below or on LinkedIn",
+                "d": "Some details, your CV, no formalities."
             },
             {
                 "t": "30-minute call",
-                "d": "We tell you the plan, you tell us how you sell."
-            },
-            {
-                "t": "Paid pilot",
-                "d": "Work a small territory, learn the product, see the numbers."
+                "d": "Let’s talk about how the position can work for both of us."
             }
         ],
         "ctaTitle": "Apply in two minutes",
-        "ctaText": "The full job description and application live on LinkedIn.",
+        "ctaText": "There is a job description and application live on LinkedIn, or use the form below.",
         "ctaButton": "Open the posting",
         "form": {
             "eyebrow": "Apply here",
@@ -263,7 +259,7 @@
     },
     "footer": {
         "copyright": "© 2026 Xanguine",
-        "privacy": "Privacy",
+        "privacy": "Privacy & Cookies",
         "terms": "Terms"
     }
 }

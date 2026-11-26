@@ -5,7 +5,7 @@ import { useLanguage } from './LanguageProvider';
 import Reveal from './Reveal';
 import constants from '../lib/constants.json';
 
-const { LINKEDIN_URL } = constants;
+const { LINKEDIN_JOB_POSTING_URL } = constants;
 
 export default function OpenRoleSection() {
   const { t } = useLanguage();
@@ -87,26 +87,28 @@ export default function OpenRoleSection() {
           </Reveal>
 
           {/* CTA */}
-          <Reveal delay={200} className="lg:col-span-2">
-            <div className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl bg-primary p-8">
-              <div className="grain absolute inset-0" aria-hidden="true" />
-              <div className="relative">
-                <h3 className="font-display text-2xl font-semibold text-primary-foreground">
-                  {r?.ctaTitle}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-primary-foreground">{r?.ctaText}</p>
-              </div>
-              <a
-                href={LINKEDIN_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative mt-8 inline-flex min-h-[52px] items-center justify-between rounded-full bg-background px-6 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
-              >
-                {r?.ctaButton}
-                <Icon name="ArrowUpRightIcon" size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
-              </a>
-            </div>
-          </Reveal>
+					{LINKEDIN_JOB_POSTING_URL && (
+						<Reveal delay={200} className="lg:col-span-2">
+							<div className="relative flex h-full flex-col justify-between overflow-hidden rounded-2xl bg-primary p-8">
+								<div className="grain absolute inset-0" aria-hidden="true" />
+								<div className="relative">
+									<h3 className="font-display text-2xl font-semibold text-primary-foreground">
+										{r?.ctaTitle}
+									</h3>
+									<p className="mt-3 text-sm leading-relaxed text-primary-foreground">{r?.ctaText}</p>
+								</div>
+								<a
+									href={LINKEDIN_JOB_POSTING_URL}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="group relative mt-8 inline-flex min-h-[52px] items-center justify-between rounded-full bg-background px-6 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+									>
+									{r?.ctaButton}
+									<Icon name="ArrowUpRightIcon" size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
+								</a>
+							</div>
+						</Reveal>
+					)}
         </div>
       </div>
     </section>

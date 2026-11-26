@@ -52,11 +52,8 @@ export default function Footer() {
           <LanguageSwitcher className="min-h-[44px]" />
           <span>{t?.footer?.copyright}</span>
           <span className="flex gap-4">
-            <Link to="/#contact" className="inline-flex min-h-[44px] items-center transition-colors hover:text-foreground">
+            <Link to="/privacy" className="inline-flex min-h-[44px] items-center transition-colors hover:text-foreground">
               {t?.footer?.privacy}
-            </Link>
-            <Link to="/#contact" className="inline-flex min-h-[44px] items-center transition-colors hover:text-foreground">
-              {t?.footer?.terms}
             </Link>
           </span>
         </div>
