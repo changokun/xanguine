@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Icon from './ui/AppIcon';
 import { useLanguage } from './LanguageProvider';
+import { submitContactForm, ContactFormData } from '../lib/api';
 
-interface FormState {
-  name: string;
-  email: string;
+interface FormState extends ContactFormData {
   business: string;
-  message: string;
 }
 
 const fieldClass =
@@ -18,6 +16,8 @@ export default function ContactForm() {
   const [values, setValues] = useState<FormState>({ name: '', email: '', business: '', message: '' });
   const [errors, setErrors] = useState<Partial<FormState>>({});
   const [sent, setSent] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
 	const [messageFocused, setMessageFocused] = useState(false);
 	const [phraseIndex, setPhraseIndex] = useState(0);
@@ -57,16 +57,33 @@ export default function ContactForm() {
     setValues((v) => ({ ...v, [e.target.name]: e.target.value }));
   };
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setSubmitError(null);
+    
     const next: Partial<FormState> = {};
     if (!values.name.trim()) next.name = f.errName;
     if (!/^\S+@\S+\.\S+$/.test(values.email)) next.email = f.errEmail;
     if (values.message.trim().length < 10) next.message = f.errMessage;
     setErrors(next);
     if (Object.keys(next).length > 0) return;
-    setSent(true);
-    setValues({ name: '', email: '', business: '', message: '' });
+
+    setIsSubmitting(true);
+    try {
+      // Submit to backend API
+      await submitContactForm({
+        name: values.name,
+        email: values.email,
+        business: values.business,
+        message: values.message,
+      });
+      setSent(true);
+      setValues({ name: '', email: '', business: '', message: '' });
+    } catch (error) {
+      setSubmitError(error instanceof Error ? error.message : f.submitError || 'Submission failed');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (sent) {
@@ -140,11 +157,15 @@ export default function ContactForm() {
         {errors.message && <p className="mt-1 text-sm text-destructive">{errors.message}</p>}
       </div>
 
+      {submitError && (
+        <p className="mt-1 text-sm text-destructive">{submitError}</p>
+      )}
       <button
         type="submit"
-        className="group mt-6 inline-flex min-h-[52px] w-full items-center justify-center gap-3 rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+        disabled={isSubmitting}
+        className="group mt-6 inline-flex min-h-[52px] w-full items-center justify-center gap-3 rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {f.submit}
+        {isSubmitting ? f.submitting || 'Sending...' : f.submit}
         <Icon name="ArrowRightIcon" size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
       </button>
     </form>

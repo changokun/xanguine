@@ -57,7 +57,7 @@ export default function OpenRoleSection() {
             <div className="relative h-full min-h-[360px] overflow-hidden rounded-2xl border border-border bg-secondary">
               <AppImage
                 src="https://img.rocket.new/generatedImages/rocket_gen_img_441b39006-1794579877487.png"
-                alt={r?.photoAlt}
+                alt=""
                 fill
                 sizes="(max-width: 1024px) 100vw, 33vw"
                 className="object-cover"

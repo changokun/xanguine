@@ -215,7 +215,6 @@
             "Um único ponto de contacto da venda ao lançamento",
             "Favorável a recomendações: os clientes ficam connosco"
         ],
-        "photoAlt": "Mulher sorridente a desfrutar de uma videochamada no portátil durante uma reunião de equipa remota",
         "hiringTitle": "Como funciona a contratação",
         "steps": [
             {
@@ -263,7 +262,7 @@
         }
     },
     "footer": {
-        "copyright": "© 2026 Xanguine, Portugal",
+        "copyright": "© 2026 Xanguine",
         "privacy": "Privacidade",
         "terms": "Termos"
     }

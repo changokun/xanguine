@@ -1,12 +1,10 @@
 import React, { useRef, useState } from 'react';
 import Icon from './ui/AppIcon';
 import { useLanguage } from './LanguageProvider';
+import { submitApplicationForm, ApplicationFormData } from '../lib/api';
 
-interface FormState {
-  name: string;
-  email: string;
-  phone: string;
-  message: string;
+interface FormState extends ApplicationFormData {
+  // phone is already in ApplicationFormData
 }
 
 interface FormErrors {
@@ -30,6 +28,8 @@ export default function ApplicationForm() {
   const [file, setFile] = useState<File | null>(null);
   const [errors, setErrors] = useState<FormErrors>({});
   const [sent, setSent] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -64,20 +64,31 @@ export default function ApplicationForm() {
     if (fileRef.current) fileRef.current.value = '';
   };
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setSubmitError(null);
+    
     const next: FormErrors = {};
+		values.message = values.message || '';
     if (!values.name.trim()) next.name = f.errName;
     if (!/^\S+@\S+\.\S+$/.test(values.email)) next.email = f.errEmail;
-    if (values.phone.replace(/[^\d]/g, '').length < 7) next.phone = f.errPhone;
+    // if (values.phone.replace(/[^\d]/g, '').length < 7) next.phone = f.errPhone;
     if (values.message.trim().length < 10) next.message = f.errMessage;
-    if (!file) next.file = f.errFileRequired;
+    // if (!file) next.file = f.errFileRequired;
     setErrors(next);
     if (Object.keys(next).length > 0) return;
-    // Backend connection point: send `values` and `file` (multipart/form-data) to your endpoint here.
-    setSent(true);
-    setValues(initial);
-    clearFile();
+
+    setIsSubmitting(true);
+    try {
+      await submitApplicationForm(values, file);
+      setSent(true);
+      setValues(initial);
+      clearFile();
+    } catch (error) {
+      setSubmitError(error instanceof Error ? error.message : f.submitError || 'Submission failed');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (sent) {
@@ -106,14 +117,14 @@ export default function ApplicationForm() {
           <label htmlFor="app-name" className="mb-2 block text-sm font-medium text-foreground">
             {f.name}
           </label>
-          <input id="app-name" name="name" value={values.name} onChange={onChange} className={fieldClass} placeholder={f.namePlaceholder} autoComplete="name" />
+          <input id="app-name" name="name" value={values.name} onChange={onChange} className={fieldClass} autoComplete="name" />
           {errors.name && <p className="mt-1 text-sm text-destructive">{errors.name}</p>}
         </div>
         <div>
           <label htmlFor="app-email" className="mb-2 block text-sm font-medium text-foreground">
             {f.email}
           </label>
-          <input id="app-email" name="email" type="email" value={values.email} onChange={onChange} className={fieldClass} placeholder={f.emailPlaceholder} autoComplete="email" />
+          <input id="app-email" name="email" type="email" value={values.email} onChange={onChange} className={fieldClass} autoComplete="email" />
           {errors.email && <p className="mt-1 text-sm text-destructive">{errors.email}</p>}
         </div>
       </div>
@@ -121,7 +132,7 @@ export default function ApplicationForm() {
         <label htmlFor="app-phone" className="mb-2 block text-sm font-medium text-foreground">
           {f.phone}
         </label>
-        <input id="app-phone" name="phone" type="tel" value={values.phone} onChange={onChange} className={fieldClass} placeholder={f.phonePlaceholder} autoComplete="tel" />
+        <input id="app-phone" name="phone" type="tel" value={values.phone} onChange={onChange} className={fieldClass} autoComplete="tel" />
         {errors.phone && <p className="mt-1 text-sm text-destructive">{errors.phone}</p>}
       </div>
       <div className="mt-5">
@@ -177,11 +188,15 @@ export default function ApplicationForm() {
         <p className="mt-2 text-sm text-muted-foreground">{f.fileHint}</p>
         {errors.file && <p className="mt-1 text-sm text-destructive">{errors.file}</p>}
       </div>
+      {submitError && (
+        <p className="mt-1 text-sm text-destructive">{submitError}</p>
+      )}
       <button
         type="submit"
-        className="group mt-6 inline-flex min-h-[52px] w-full items-center justify-center gap-3 rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+        disabled={isSubmitting}
+        className="group mt-6 inline-flex min-h-[52px] w-full items-center justify-center gap-3 rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        {f.submit}
+        {isSubmitting ? f.submitting || 'Sending...' : f.submit}
         <Icon name="ArrowRightIcon" size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
       </button>
     </form>

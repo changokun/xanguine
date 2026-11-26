@@ -81,9 +81,7 @@
         "linkedin": "Sales role on LinkedIn",
         "form": {
             "name": "Your name",
-            "namePlaceholder": "Marta Figueiredo",
             "email": "Email",
-            "emailPlaceholder": "marta@padariasol.pt",
             "business": "Business name",
             "optional": "(optional)",
 						"messagePlaceholders": [
@@ -210,14 +208,13 @@
         "title": "Salesperson, small-business websites",
         "intro": "We’re a small company and we say so. That also means your work is visible, your input shapes the offer, and early results count.",
         "pitchTitle": "What you'd be selling",
-        "pitchText": "Custom websites for restaurants, clinics, tradespeople, local shops and consultants: businesses with 1 to 20 people that need a serious site and do not want an agency maze. You sell a clear offer: a site, built by the people you introduce them to.",
+        "pitchText": "Custom websites for restaurants, clinics, tradespeople, local shops and anything else: businesses with 1 to 20 people that need a serious site and do not want an agency maze. You sell a clear offer: a site that can do anything they need, built by the people you introduce them to.",
         "pitchPoints": [
             "Fixed-scope project quotes",
-            "Delivered in weeks, not quarters",
-            "One point of contact from sale to launch",
-            "Referral-friendly: clients stay with us"
+            "Delivered in days",
+            "Define your own hours",
+            "Define your own position"
         ],
-        "photoAlt": "Smiling woman enjoying a video call on her laptop during a remote team meeting",
         "hiringTitle": "How hiring works",
         "steps": [
             {
@@ -238,12 +235,10 @@
         "ctaButton": "Open the posting",
         "form": {
             "eyebrow": "Apply here",
-            "title": "Send us your application",
+            "title": "Send us your Details",
             "intro": "Attach your CV as a PDF and tell us a little about yourself. You can also apply through the LinkedIn posting.",
             "name": "Full name",
-            "namePlaceholder": "Joana Ribeiro",
             "email": "Email",
-            "emailPlaceholder": "joana@example.com",
             "phone": "Phone",
             "phonePlaceholder": "+351 912 345 678",
             "message": "Message",
@@ -267,7 +262,7 @@
         }
     },
     "footer": {
-        "copyright": "\u00a9 2026 Xanguine, Portugal",
+        "copyright": "© 2026 Xanguine",
         "privacy": "Privacy",
         "terms": "Terms"
     }
