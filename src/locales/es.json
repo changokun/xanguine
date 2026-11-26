@@ -81,9 +81,7 @@
         "linkedin": "Puesto de ventas en LinkedIn",
         "form": {
             "name": "Tu nombre",
-            "namePlaceholder": "Marta Figueiredo",
             "email": "Correo electrónico",
-            "emailPlaceholder": "marta@padariasol.pt",
             "business": "Nombre del negocio",
             "optional": "(opcional)",
             "message": "¿Qué necesitas?",
@@ -205,7 +203,7 @@
             "sendAnother": "Enviar otro"
         }
     },
-    "role": {
+    "roleXX": {
         "eyebrow": "Puesto abierto",
         "title": "Comercial, sitios web para pequeñas empresas",
         "intro": "Somos una empresa pequeña y lo decimos abiertamente. Eso también significa que tu trabajo es visible, tu opinión da forma a la oferta y los primeros resultados cuentan.",
@@ -241,9 +239,7 @@
             "title": "Envíanos tu solicitud",
             "intro": "Adjunta tu CV en PDF y cuéntanos un poco sobre ti. También puedes postularte a través de la oferta en LinkedIn.",
             "name": "Nombre completo",
-            "namePlaceholder": "Joana Ribeiro",
             "email": "Correo electrónico",
-            "emailPlaceholder": "joana@ejemplo.es",
             "phone": "Teléfono",
             "phonePlaceholder": "+351 912 345 678",
             "message": "Mensaje",

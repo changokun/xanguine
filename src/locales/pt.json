@@ -81,9 +81,7 @@
         "linkedin": "Vaga de vendas no LinkedIn",
         "form": {
             "name": "O seu nome",
-            "namePlaceholder": "Marta Figueiredo",
             "email": "Email",
-            "emailPlaceholder": "marta@padariasol.pt",
             "business": "Nome do negócio",
             "optional": "(opcional)",
             "message": "De que precisa?",
@@ -205,7 +203,7 @@
             "sendAnother": "Enviar outra"
         }
     },
-    "role": {
+    "roleXX": {
         "eyebrow": "Vaga aberta",
         "title": "Comercial, websites para pequenas empresas",
         "intro": "Somos uma empresa pequena e dizemo-lo abertamente. Isso significa também que o seu trabalho é visível, a sua opinião molda a oferta e os primeiros resultados contam.",
@@ -241,9 +239,7 @@
             "title": "Envie-nos a sua candidatura",
             "intro": "Anexe o seu CV em PDF e fale-nos um pouco sobre si. Também pode candidatar-se através do anúncio no LinkedIn.",
             "name": "Nome completo",
-            "namePlaceholder": "Joana Ribeiro",
             "email": "Email",
-            "emailPlaceholder": "joana@exemplo.pt",
             "phone": "Telefone",
             "phonePlaceholder": "+351 912 345 678",
             "message": "Mensagem",
