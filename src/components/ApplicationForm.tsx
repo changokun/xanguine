@@ -99,13 +99,13 @@ export default function ApplicationForm() {
         </div>
         <h3 className="mt-6 font-display text-2xl font-semibold text-foreground">{f.sentTitle}</h3>
         <p className="mt-2 max-w-sm text-sm text-muted-foreground">{f.sentText}</p>
-        <button
+        {/* <button
           type="button"
           onClick={() => setSent(false)}
           className="mt-6 min-h-[44px] rounded-full border border-border px-6 text-sm font-medium text-foreground transition-colors hover:border-primary"
         >
           {f.sendAnother}
-        </button>
+        </button> */}
       </div>
     );
   }
